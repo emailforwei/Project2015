@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385DB825AC706A0EDB683725 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67708BF5003F5992B69ABBE6 /* libPods.a */; };
+		527971071B3BDFF600DF36F8 /* HJInputVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 527971061B3BDFF600DF36F8 /* HJInputVIew.m */; };
+		527E6B5C1B3A600800ABB48E /* HJChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E6B5B1B3A600800ABB48E /* HJChatListViewController.m */; };
+		527E6B5F1B3A95D400ABB48E /* HJChatListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E6B5E1B3A95D400ABB48E /* HJChatListModel.m */; };
+		527E6B621B3A9D8E00ABB48E /* HJChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E6B611B3A9D8E00ABB48E /* HJChatViewController.m */; };
 		529B888F1B394F19000B44F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B888E1B394F19000B44F9 /* main.m */; };
 		529B88921B394F19000B44F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B88911B394F19000B44F9 /* AppDelegate.m */; };
 		529B88951B394F19000B44F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B88941B394F19000B44F9 /* ViewController.m */; };
@@ -27,6 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		527971051B3BDFF600DF36F8 /* HJInputVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJInputVIew.h; sourceTree = "<group>"; };
+		527971061B3BDFF600DF36F8 /* HJInputVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJInputVIew.m; sourceTree = "<group>"; };
+		527E6B5A1B3A600800ABB48E /* HJChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChatListViewController.h; sourceTree = "<group>"; };
+		527E6B5B1B3A600800ABB48E /* HJChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChatListViewController.m; sourceTree = "<group>"; };
+		527E6B5D1B3A95D400ABB48E /* HJChatListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChatListModel.h; sourceTree = "<group>"; };
+		527E6B5E1B3A95D400ABB48E /* HJChatListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChatListModel.m; sourceTree = "<group>"; };
+		527E6B601B3A9D8E00ABB48E /* HJChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChatViewController.h; sourceTree = "<group>"; };
+		527E6B611B3A9D8E00ABB48E /* HJChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChatViewController.m; sourceTree = "<group>"; };
+		527E6B641B3AA7AD00ABB48E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		529B88891B394F19000B44F9 /* Project2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529B888D1B394F19000B44F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529B888E1B394F19000B44F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,9 @@
 		529B88A21B394F19000B44F9 /* Project2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529B88A71B394F19000B44F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529B88A81B394F19000B44F9 /* Project2015Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2015Tests.m; sourceTree = "<group>"; };
+		67708BF5003F5992B69ABBE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE05BBB79616FA4789E4E1E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA52CCEDAC3EEAC1D8576FBD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385DB825AC706A0EDB683725 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E92641791AC1C3B5FBCE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67708BF5003F5992B69ABBE6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527971041B3BDFBC00DF36F8 /* HJInputView */ = {
+			isa = PBXGroup;
+			children = (
+				527971051B3BDFF600DF36F8 /* HJInputVIew.h */,
+				527971061B3BDFF600DF36F8 /* HJInputVIew.m */,
+			);
+			name = HJInputView;
+			sourceTree = "<group>";
+		};
 		529B88801B394F19000B44F9 = {
 			isa = PBXGroup;
 			children = (
 				529B888B1B394F19000B44F9 /* Project2015 */,
 				529B88A51B394F19000B44F9 /* Project2015Tests */,
 				529B888A1B394F19000B44F9 /* Products */,
+				FCDCB5D7C6917E5756F02BF1 /* Pods */,
+				38E92641791AC1C3B5FBCE04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +118,7 @@
 		529B888B1B394F19000B44F9 /* Project2015 */ = {
 			isa = PBXGroup;
 			children = (
+				527971041B3BDFBC00DF36F8 /* HJInputView */,
 				529B88901B394F19000B44F9 /* AppDelegate.h */,
 				529B88911B394F19000B44F9 /* AppDelegate.m */,
 				529B88931B394F19000B44F9 /* ViewController.h */,
@@ -89,6 +127,13 @@
 				529B88991B394F19000B44F9 /* Images.xcassets */,
 				529B889B1B394F19000B44F9 /* LaunchScreen.xib */,
 				529B888C1B394F19000B44F9 /* Supporting Files */,
+				527E6B5A1B3A600800ABB48E /* HJChatListViewController.h */,
+				527E6B5B1B3A600800ABB48E /* HJChatListViewController.m */,
+				527E6B5D1B3A95D400ABB48E /* HJChatListModel.h */,
+				527E6B5E1B3A95D400ABB48E /* HJChatListModel.m */,
+				527E6B601B3A9D8E00ABB48E /* HJChatViewController.h */,
+				527E6B611B3A9D8E00ABB48E /* HJChatViewController.m */,
+				527E6B641B3AA7AD00ABB48E /* PrefixHeader.pch */,
 			);
 			path = Project2015;
 			sourceTree = "<group>";
@@ -119,6 +164,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FCDCB5D7C6917E5756F02BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE05BBB79616FA4789E4E1E3 /* Pods.debug.xcconfig */,
+				FA52CCEDAC3EEAC1D8576FBD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529B88AC1B394F19000B44F9 /* Build configuration list for PBXNativeTarget "Project2015" */;
 			buildPhases = (
+				C35F7E86F00559D0765E2B58 /* Check Pods Manifest.lock */,
 				529B88851B394F19000B44F9 /* Sources */,
 				529B88861B394F19000B44F9 /* Frameworks */,
 				529B88871B394F19000B44F9 /* Resources */,
+				8C3E6CA8B16CD89C5DA2D7F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +270,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C3E6CA8B16CD89C5DA2D7F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35F7E86F00559D0765E2B58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		529B88851B394F19000B44F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +310,10 @@
 			files = (
 				529B88951B394F19000B44F9 /* ViewController.m in Sources */,
 				529B88921B394F19000B44F9 /* AppDelegate.m in Sources */,
+				527971071B3BDFF600DF36F8 /* HJInputVIew.m in Sources */,
+				527E6B621B3A9D8E00ABB48E /* HJChatViewController.m in Sources */,
+				527E6B5C1B3A600800ABB48E /* HJChatListViewController.m in Sources */,
+				527E6B5F1B3A95D400ABB48E /* HJChatListModel.m in Sources */,
 				529B888F1B394F19000B44F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +438,11 @@
 		};
 		529B88AD1B394F19000B44F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE05BBB79616FA4789E4E1E3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Project2015/PrefixHeader.pch";
 				INFOPLIST_FILE = Project2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,8 +451,11 @@
 		};
 		529B88AE1B394F19000B44F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA52CCEDAC3EEAC1D8576FBD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Project2015/PrefixHeader.pch";
 				INFOPLIST_FILE = Project2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +515,7 @@
 				529B88AE1B394F19000B44F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		529B88AF1B394F19000B44F9 /* Build configuration list for PBXNativeTarget "Project2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +524,7 @@
 				529B88B11B394F19000B44F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

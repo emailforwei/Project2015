@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "HJChatListViewController.h"
 
 @interface AppDelegate ()
+@property(nonatomic,strong)UITabBarController *tabbarController;
 
 @end
 
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.tabbarController = [[UITabBarController alloc] init];
+    UIViewController *vc = [[UIViewController alloc]init];
+    vc.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemRecents tag:1];
+    
+    HJChatListViewController *chatListController = [[HJChatListViewController alloc] init];
+    chatListController.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
+    chatListController.view.backgroundColor = [UIColor whiteColor];
+    UINavigationController *nav0 = [[UINavigationController alloc] initWithRootViewController:chatListController];
+    nav0.navigationBar.tintColor = [UIColor blueColor];
+    nav0.navigationBar.backgroundColor = [UIColor greenColor];
+    
+    self.tabbarController.viewControllers = [[NSArray alloc]initWithObjects:nav0,vc, nil];
+    self.tabbarController.selectedIndex = 0;
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = self.tabbarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
